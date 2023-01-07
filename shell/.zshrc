@@ -28,6 +28,7 @@ alias gc="git commit -m"
 alias gcd="git commit -m '$(date)'"
 alias gco="git checkout"
 alias gp="git push"
+alias dfs="cd ~/.dotfiles"
 
 alias cups_ip="echo http://localhost:631"
 alias syu="yay -Syu"

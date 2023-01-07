@@ -206,8 +206,8 @@ exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
 
 # Bindings
-bindsym $mod+shift+w exec --no-startup-id i3lock -c #000000
 bindsym $mod+shift+o exec --no-startup-id pavucontrol
+bindsym $mod+shift+w exec --no-startup-id i3lock -c 000000
 
 # Settings
 focus_follows_mouse no
