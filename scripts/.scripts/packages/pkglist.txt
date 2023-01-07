@@ -13,6 +13,9 @@ davfs2
 debugedit
 discord
 dmenu
+dracula-cursors-git
+dracula-gtk-theme
+dracula-icons-git
 dunst
 efibootmgr
 fakeroot
@@ -72,6 +75,7 @@ pipewire-jack
 pipewire-pulse
 pkgconf
 ranger
+rar
 rofi
 sed
 smartmontools
