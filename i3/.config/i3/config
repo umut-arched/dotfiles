@@ -203,6 +203,7 @@ client.background       #ffffff
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
+exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
 
 # Bindings
 bindsym $mod+shift+w exec --no-startup-id i3lock -c #000000
