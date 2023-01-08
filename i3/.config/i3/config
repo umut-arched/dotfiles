@@ -204,6 +204,7 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
+exec volumeicon
 
 # Bindings
 bindsym $mod+shift+o exec --no-startup-id pavucontrol

@@ -27,6 +27,7 @@ flex
 gawk
 gcc
 gettext
+gimp
 git
 google-chrome
 gpick
@@ -42,6 +43,7 @@ i3blocks
 i3lock
 i3status
 imagemagick
+inkscape
 iwd
 jdownloader2
 jetbrains-toolbox
@@ -60,6 +62,7 @@ man-db
 mangohud
 maven
 nano
+neofetch
 neovim
 network-manager-applet
 networkmanager
@@ -78,6 +81,7 @@ pkgconf
 ranger
 rar
 rofi
+rsync
 sed
 smartmontools
 steam
@@ -106,7 +110,10 @@ texlive-science
 texstudio
 thunar
 tlp
+ttf-font-awesome
+ttf-nerd-fonts-symbols-2048-em
 vim
+volumeicon
 wget
 which
 wine
