@@ -33,3 +33,6 @@ alias rm="trash"
 
 alias cups_ip="echo http://localhost:631"
 alias syu="yay -Syu"
+
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
