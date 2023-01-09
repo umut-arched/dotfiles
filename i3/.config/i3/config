@@ -17,7 +17,7 @@ exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id copyq
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
-exec --no-startup-id volumeicon
+exec --no-startup-id sleep 2 && volumeicon
 exec --no-startup-id keepassxc
 exec --no-startup-id autorandr
 

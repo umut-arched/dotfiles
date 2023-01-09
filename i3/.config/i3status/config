@@ -54,7 +54,7 @@ path_exists VPN {
 }
 
 tztime berlin {
-        format = " %Y-%m-%d %H:%M:%S %Z"
+        format = " %Y-%m-%d %A %H:%M:%S"
         timezone = "Europe/Berlin"
 }
 
