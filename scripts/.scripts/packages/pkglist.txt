@@ -13,7 +13,10 @@ binutils
 bison
 blender
 blueman
+brightnessctl
 cmatrix
+conky
+conky-manager
 copyq
 davfs2
 debugedit
@@ -51,6 +54,7 @@ i3lock
 i3status
 imagemagick
 inkscape
+intel-ucode
 iwd
 jdownloader2
 jetbrains-toolbox
@@ -87,6 +91,7 @@ otf-font-awesome-4
 pacman
 patch
 pavucontrol
+picom
 pipewire
 pipewire-alsa
 pipewire-jack
