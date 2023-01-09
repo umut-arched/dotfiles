@@ -1,5 +1,7 @@
+adobe-source-han-sans-hk-fonts
 alacritty
 amd-ucode
+anydesk-bin
 arandr
 archlinux-keyring
 autoconf
@@ -9,6 +11,10 @@ autotiling
 base
 binutils
 bison
+blender
+blueman
+cmatrix
+copyq
 davfs2
 debugedit
 discord
@@ -23,6 +29,7 @@ feh
 file
 findutils
 firefox
+flameshot
 flex
 gawk
 gcc
@@ -48,8 +55,12 @@ iwd
 jdownloader2
 jetbrains-toolbox
 keepassxc
+lib32-libva-mesa-driver
+lib32-mesa-vdpau
+lib32-nvidia-utils
 libpulse
 libtool
+libva-mesa-driver
 lightdm
 lightdm-gtk-greeter
 linux
@@ -61,6 +72,7 @@ make
 man-db
 mangohud
 maven
+mesa-vdpau
 nano
 neofetch
 neovim
@@ -70,6 +82,8 @@ nodejs
 npm
 ntfs-3g
 nvidia
+obs-studio
+otf-font-awesome-4
 pacman
 patch
 pavucontrol
@@ -110,6 +124,7 @@ texlive-science
 texstudio
 thunar
 tlp
+ttf-arimo-nerd
 ttf-font-awesome
 ttf-nerd-fonts-symbols-2048-em
 vim
@@ -124,6 +139,21 @@ wireless_tools
 wireplumber
 xclip
 xdg-utils
+xf86-input-evdev
+xf86-input-synaptics
+xf86-input-vmmouse
+xf86-input-void
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-openchrome
+xf86-video-qxl
+xf86-video-vesa
+xf86-video-vmware
+xf86-video-voodoo
 xorg-server
 xorg-xinit
 xterm

@@ -11,9 +11,36 @@
 
 set $mod Mod4
 
+# Autostart
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id nitrogen --restore
+exec_always --no-startup-id mount ~/nextcloud
+exec_always --no-startup-id copyq
+exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
+exec --no-startup-id volumeicon
+exec --no-startup-id keepassxc
+
+# Bindings
+bindsym $mod+shift+i exec --no-startup-id pavucontrol
+bindsym $mod+shift+u exec --no-startup-id arandr
+bindsym $mod+shift+o exec --no-startup-id keepassxc
+bindsym $mod+shift+w exec --no-startup-id i3lock -c 000000
+bindsym $mod+shift+semicolon exec --no-startup-id copyq show
+bindsym $mod+shift+s exec --no-startup-id flameshot gui
+
+# Window rules
+for_window [title="CopyQ"] floating enable
+for_window [title="CopyQ"] move position center
+
+# Settings
+focus_follows_mouse no
+smart_gaps on
+gaps inner 10
+
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:monospace 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -183,34 +210,45 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# colors
+set $black #0B1014
+set $grey #27353E
+set $darkerGrey #202C33
+set $blue #609EAD
+set $white #E3F2F1
+set $darkerWhite #9AA5A4
+
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
         status_command i3status
+	padding 1px
+	position top
+	tray_output primary
+	tray_padding 3px
+
+	colors {
+        background $black
+        statusline $white
+        separator  $grey
+
+        focused_workspace  $blue $blue $white
+        active_workspace   $grey $grey $white
+        inactive_workspace $darkerGrey $darkerGrey $darkerWhite
+        urgent_workspace   #2f343a #900000 #ffffff
+        binding_mode       #2f343a #900000 #ffffff
+    }
+
 }
 
-# colors
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
-client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
-client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.focused          $blue   $blue   $white  $blue     $blue
+client.focused_inactive $grey $grey $white  $grey     $grey
+client.unfocused        $grey $grey $white  $grey     $grey
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
-# Autostart
-exec_always --no-startup-id autotiling
-exec_always --no-startup-id nitrogen --restore
-exec_always --no-startup-id mount ~/nextcloud
-exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
-exec volumeicon
 
-# Bindings
-bindsym $mod+shift+o exec --no-startup-id pavucontrol
-bindsym $mod+shift+w exec --no-startup-id i3lock -c 000000
-
-# Settings
-focus_follows_mouse no
-smart_gaps on
-gaps inner 10
