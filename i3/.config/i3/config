@@ -12,6 +12,7 @@
 set $mod Mod4
 
 # Autostart
+exec_always --no-startup-id dfs && git pull
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
