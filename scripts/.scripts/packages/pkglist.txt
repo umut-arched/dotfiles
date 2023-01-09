@@ -124,6 +124,7 @@ texlive-science
 texstudio
 thunar
 tlp
+trash-cli
 ttf-arimo-nerd
 ttf-font-awesome
 ttf-nerd-fonts-symbols-2048-em
