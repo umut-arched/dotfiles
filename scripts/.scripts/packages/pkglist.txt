@@ -19,6 +19,7 @@ conky
 conky-manager
 copyq
 davfs2
+davinci-resolve-studio
 debugedit
 discord
 dmenu
