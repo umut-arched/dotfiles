@@ -23,10 +23,12 @@ davinci-resolve-studio
 debugedit
 discord
 dmenu
+dnsmasq
 dracula-cursors-git
 dracula-gtk-theme
 dracula-icons-git
 dunst
+edk2-ovmf
 efibootmgr
 fakeroot
 feh
@@ -66,6 +68,7 @@ lib32-nvidia-utils
 libpulse
 libtool
 libva-mesa-driver
+libvirt
 lightdm
 lightdm-gtk-greeter
 linux
@@ -98,6 +101,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 pkgconf
+qemu-desktop
 ranger
 rar
 rofi
@@ -135,6 +139,7 @@ ttf-arimo-nerd
 ttf-font-awesome
 ttf-nerd-fonts-symbols-2048-em
 vim
+virt-manager
 volumeicon
 wget
 which

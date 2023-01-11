@@ -18,6 +18,8 @@ exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id copyq
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
+exec --no-startup-id conky -c ~/.conky/Gotham/Gotham
+exec --no-startup-id conky -c ~/.conky/Conky\ Seamod/conky_seamod
 exec --no-startup-id keepassxc
 exec --no-startup-id picom
 exec --no-startup-id autorandr
