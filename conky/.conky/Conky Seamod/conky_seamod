@@ -28,25 +28,24 @@ minimum_size 300 900
 maximum_width 350
 
 own_window yes
-own_window_class Conky
-own_window_type override
+own_window_type normal
 own_window_transparent yes
 own_window_argb_visual yes
-own_window_argb_visual no
+own_window_argb_visual yes
 own_window_colour 000000
 own_window_argb_value 0
 own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
 
 border_inner_margin 0
 border_outer_margin 0
-alignment top_right
+alignment top_left
 
 
 draw_shades no
 draw_outline no
 draw_borders no
 draw_graph_borders no
-
+own_window_type = 'override'
 override_utf8_locale yes
 use_xft yes
 xftfont caviar dreams:size=10
