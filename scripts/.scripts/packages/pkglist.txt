@@ -13,6 +13,7 @@ binutils
 bison
 blender
 blueman
+bluez-utils
 brightnessctl
 cmatrix
 conky

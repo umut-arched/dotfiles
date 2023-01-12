@@ -31,6 +31,8 @@ alias gp="git push"
 alias dfs="cd ~/.dotfiles"
 alias rm="trash"
 
+alias cal="cal -m"
+
 alias cups_ip="echo http://localhost:631"
 alias syu="yay -Syu"
 alias ra="ranger"
