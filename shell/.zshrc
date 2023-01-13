@@ -31,6 +31,10 @@ alias gp="git push"
 alias dfs="cd ~/.dotfiles"
 alias rm="trash"
 
+alias spring_run="mvn spring-boot:run"
+alias mvn_gen="mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart"
+
+alias bctl="bluetoothctl"
 alias cal="cal -m"
 
 alias cups_ip="echo http://localhost:631"
