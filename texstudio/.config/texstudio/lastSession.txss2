@@ -1,7 +1,7 @@
 {
     "InternalPDFViewer": {
-        "Embedded": false,
-        "File": ""
+        "Embedded": true,
+        "File": "../../../../tmp/texstudio_PttiCt.pdf"
     },
     "Session": {
         "Bookmarks": [

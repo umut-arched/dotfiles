@@ -26,8 +26,8 @@ exec --no-startup-id picom
 exec --no-startup-id autorandr
 
 # Bindings
-bindsym $mod+shift+u exec --no-startup-id pavucontrol
-bindsym $mod+shift+i exec --no-startup-id arandr
+bindsym $mod+shift+u exec --no-startup-id arandr
+bindsym $mod+shift+i exec --no-startup-id pavucontrol
 bindsym $mod+shift+o exec --no-startup-id keepassxc
 bindsym $mod+shift+w exec --no-startup-id i3lock -c 000000
 bindsym $mod+shift+semicolon exec --no-startup-id copyq show
