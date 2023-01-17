@@ -35,7 +35,7 @@ alias spring_run="mvn spring-boot:run"
 alias mvn_gen="mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart"
 
 alias bctl="bluetoothctl"
-alias cal="cal -m"
+alias cal="cal -mw"
 
 alias cups_ip="echo http://localhost:631"
 alias syu="yay -Syu"

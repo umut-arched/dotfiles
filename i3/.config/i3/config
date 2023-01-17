@@ -20,7 +20,6 @@ exec_always --no-startup-id copyq
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
 exec_always --no-startup-id autorandr -l $(autorandr | grep detected | cut -d " " -f 1)
 exec --no-startup-id conky -c ~/.conky/Gotham/Gotham
-exec --no-startup-id conky -c ~/.conky/Conky\ Seamod/conky_seamod
 exec --no-startup-id keepassxc
 exec --no-startup-id picom
 exec --no-startup-id autorandr

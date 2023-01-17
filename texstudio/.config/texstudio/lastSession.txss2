@@ -1,14 +1,22 @@
 {
     "InternalPDFViewer": {
         "Embedded": true,
-        "File": "../../../../tmp/texstudio_PttiCt.pdf"
+        "File": "../../nextcloud/Uni/STATISTIK/zusammenfassung.pdf"
     },
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "",
+        "CurrentFile": "../../nextcloud/Uni/STATISTIK/zusammenfassung.tex",
         "FileVersion": 1,
         "Files": [
+            {
+                "Col": 45,
+                "EditorGroup": 0,
+                "FileName": "../../nextcloud/Uni/STATISTIK/zusammenfassung.tex",
+                "FirstLine": 86,
+                "FoldedLines": "",
+                "Line": 93
+            }
         ],
         "MasterFile": "",
         "VerticalSplit": false
