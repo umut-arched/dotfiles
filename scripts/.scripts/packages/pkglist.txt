@@ -15,12 +15,14 @@ blender
 bluez-utils
 brightnessctl
 cmatrix
+code
 conky
 conky-manager
 copyq
 davfs2
 debugedit
 discord
+dkms
 dmenu
 dracula-cursors-git
 dracula-gtk-theme
@@ -69,6 +71,11 @@ lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+linux-headers
+linux-lts
+linux-lts-headers
+linux-zen
+linux-zen-headers
 lutris
 lxappearance
 m4
@@ -91,7 +98,6 @@ otf-font-awesome-4
 pacman
 patch
 pavucontrol
-picom
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -105,7 +111,6 @@ sed
 shim-signed
 slack-desktop
 smartmontools
-spring-boot-cli
 steam
 stow
 sudo
@@ -168,5 +173,4 @@ xorg-server
 xorg-xinit
 xterm
 yay
-zoom
 zsh
