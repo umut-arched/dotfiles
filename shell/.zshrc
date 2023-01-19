@@ -18,7 +18,7 @@ alias yay_dump="cd ~/.scripts/packages/; sudo sh dump.sh;"
 
 alias ga="git add ."
 alias gb="git branch -a"
-alias gl="git log --graph --all"
+alias gl="git log --graph --all --oneline --abbrev-commit"
 alias gd="git diff"
 alias grfl="git reflog"
 alias gcl="git clean"
