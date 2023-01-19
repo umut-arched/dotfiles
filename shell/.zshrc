@@ -16,6 +16,7 @@ alias sd="shutdown now"
 alias yay_setup="cd ~/.scripts/packages/; sh setup.sh;"
 alias yay_dump="cd ~/.scripts/packages/; sudo sh dump.sh;"
 
+alias backup="yay_dump; dfs; ga; gcd; gp"
 alias ga="git add ."
 alias gb="git branch -a"
 alias gl="git log --graph --all --oneline --abbrev-commit"
