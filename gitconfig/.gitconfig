@@ -4,4 +4,4 @@
 	name = Umut Arslan
 	email = umut_arslan@gmx.de
 [core]
-	editor = nvim
+	editor = vim

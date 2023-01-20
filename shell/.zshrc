@@ -32,6 +32,7 @@ alias gp="git push"
 alias dfs="cd ~/.dotfiles"
 alias rm="trash"
 
+alias actions="vim ~/.scripts/actionlist"
 alias spring_run="mvn spring-boot:run"
 alias mvn_gen="mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart"
 

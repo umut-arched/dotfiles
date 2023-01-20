@@ -35,6 +35,7 @@ bindsym $mod+shift+s exec --no-startup-id flameshot gui
 # Window rules
 for_window [title="CopyQ"] floating enable
 for_window [title="CopyQ"] move position center
+for_window [title="CopyQ"] resize set 700 700
 for_window [class=".*"] title_format "<b>%title</b>"
 
 # Settings
