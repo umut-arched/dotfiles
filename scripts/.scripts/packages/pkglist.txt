@@ -86,7 +86,6 @@ maven
 mesa-vdpau
 nano
 neofetch
-neovim
 network-manager-applet
 networkmanager
 nodejs
