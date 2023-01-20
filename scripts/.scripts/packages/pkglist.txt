@@ -173,4 +173,5 @@ xorg-server
 xorg-xinit
 xterm
 yay
+zoom
 zsh
