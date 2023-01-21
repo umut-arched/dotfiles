@@ -34,6 +34,8 @@ bindsym $mod+shift+s exec --no-startup-id flameshot gui
 
 # Window rules
 for_window [title="CopyQ"] floating enable
+for_window [title="Graph - QjackCtl"] floating enable
+for_window [title="Graph - QjackCtl"] resize set 700 700
 for_window [title="CopyQ"] move position center
 for_window [title="CopyQ"] resize set 700 700
 for_window [class=".*"] title_format "<b>%title</b>"
@@ -264,4 +266,4 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
 
-exec --no-startup-id sleep 15 && volumeicon
+exec --no-startup-id sleep 45 && volumeicon

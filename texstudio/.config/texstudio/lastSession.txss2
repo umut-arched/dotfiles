@@ -6,17 +6,9 @@
     "Session": {
         "Bookmarks": [
         ],
-        "CurrentFile": "../../nextcloud/Uni/STATISTIK/zusammenfassung.tex",
+        "CurrentFile": "",
         "FileVersion": 1,
         "Files": [
-            {
-                "Col": 45,
-                "EditorGroup": 0,
-                "FileName": "../../nextcloud/Uni/STATISTIK/zusammenfassung.tex",
-                "FirstLine": 86,
-                "FoldedLines": "",
-                "Line": 93
-            }
         ],
         "MasterFile": "",
         "VerticalSplit": false
