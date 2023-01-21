@@ -34,6 +34,7 @@ bindsym $mod+shift+s exec --no-startup-id flameshot gui
 
 # Window rules
 for_window [title="CopyQ"] floating enable
+for_window [title="Adobe Photoshop CS6 Extended"] floating enable
 for_window [title="Graph - QjackCtl"] floating enable
 for_window [title="Graph - QjackCtl"] resize set 700 700
 for_window [title="CopyQ"] move position center

@@ -13,6 +13,7 @@ binutils
 bison
 blender
 blueman
+bottles
 brightnessctl
 cmatrix
 code
@@ -49,7 +50,6 @@ grep
 groff
 gst-plugin-pipewire
 guitarix
-gvfs
 gzip
 htop
 i3-wm
@@ -115,6 +115,7 @@ smartmontools
 steam
 stow
 sudo
+swtpm
 texinfo
 texlive-bibtexextra
 texlive-bin
