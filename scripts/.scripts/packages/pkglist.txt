@@ -75,6 +75,7 @@ lightdm
 lightdm-gtk-greeter
 linux
 linux-firmware
+lmms
 lutris
 lxappearance
 m4
@@ -93,11 +94,13 @@ npm
 ntfs-3g
 nvidia
 obs-studio
+otf-fira-mono
 otf-font-awesome-4
 pacman
 pandoc
 patch
 pavucontrol
+picom
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -140,6 +143,7 @@ texstudio
 thunar
 tlp
 trash-cli
+tree
 ttf-arimo-nerd
 ttf-font-awesome
 ttf-nerd-fonts-symbols-2048-em
