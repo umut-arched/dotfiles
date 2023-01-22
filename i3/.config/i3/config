@@ -40,6 +40,7 @@ for_window [title="Graph - QjackCtl"] resize set 700 700
 for_window [title="CopyQ"] move position center
 for_window [title="CopyQ"] resize set 700 700
 for_window [class=".*"] title_format "<b>%title</b>"
+for_window [all] border pixel 2
 
 # Settings
 focus_follows_mouse no
