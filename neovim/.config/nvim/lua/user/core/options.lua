@@ -31,8 +31,9 @@ opt.smartindent = true
 opt.smarttab = true
 opt.breakindent = true
 
--- line wrapping
-opt.wrap = false
+-- line wrapping & breaking
+opt.wrap = true
+opt.linebreak = true
 
 -- search settings
 opt.ignorecase = true
