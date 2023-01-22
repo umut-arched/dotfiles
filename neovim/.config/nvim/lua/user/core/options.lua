@@ -7,8 +7,11 @@ opt.fileencoding = 'utf-8'
 -- title
 opt.title = true
 opt.hlsearch = true
+opt.incsearch = true
+opt.syntax = "on"
 
 opt.showcmd = true
+opt.showmatch = true
 opt.cmdheight = 1
 opt.laststatus = 2
 opt.expandtab = true

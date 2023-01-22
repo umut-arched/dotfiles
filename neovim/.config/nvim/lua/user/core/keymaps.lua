@@ -2,7 +2,7 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
-keymap.set("i", "hh", "<ESC>")
+keymap.set("i", "jk", "<ESC>")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
