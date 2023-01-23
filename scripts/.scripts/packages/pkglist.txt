@@ -68,6 +68,7 @@ lib32-libva-mesa-driver
 lib32-mesa-vdpau
 lib32-nvidia-utils
 libpulse
+libreoffice-fresh
 libtool
 libva-mesa-driver
 libvirt
