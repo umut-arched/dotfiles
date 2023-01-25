@@ -48,6 +48,7 @@ google-chrome
 gpick
 grep
 groff
+grub
 gst-plugin-pipewire
 guitarix
 gzip
@@ -115,6 +116,7 @@ rofi
 rsync
 sed
 shim-signed
+slack-desktop
 smartmontools
 steam
 stow
@@ -142,6 +144,7 @@ texlive-publishers
 texlive-science
 texstudio
 thunar
+thunderbird
 tlp
 trash-cli
 tree
