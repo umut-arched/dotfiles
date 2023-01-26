@@ -1,4 +1,3 @@
 #!/bin/bash
-mons=$(xrandr | cut -d " " -f 1)
-
+mons=$(xrandr --listactivemonitors)
 echo $mons
