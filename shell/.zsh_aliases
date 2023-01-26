@@ -1,5 +1,6 @@
 alias ls='ls --color=auto'
 alias sd="shutdown now"
+alias sdb="backup; echo shutdown"
 
 alias yay_setup="cd ~/.scripts/packages/; sh setup.sh;"
 alias yay_dump="cd ~/.scripts/packages/; sudo sh dump.sh;"
