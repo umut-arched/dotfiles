@@ -18,11 +18,11 @@ exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id copyq
 exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
-exec_always --no-startup-id autorandr -l $(autorandr | grep detected | cut -d " " -f 1)
 exec --no-startup-id conky -c ~/.conky/Gotham/Gotham
 exec --no-startup-id keepassxc
 exec --no-startup-id picom
-exec --no-startup-id autorandr
+#exec --no-startup-id autorandr
+#exec_always --no-startup-id autorandr -l $(autorandr | grep detected | cut -d " " -f 1)
 
 # Bindings
 bindsym $mod+shift+u exec --no-startup-id arandr
@@ -44,8 +44,6 @@ for_window [all] border pixel 2
 
 # Settings
 focus_follows_mouse no
-smart_gaps on
-gaps inner 10
 title_align center
 default_border normal
 default_floating_border normal
