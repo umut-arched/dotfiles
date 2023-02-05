@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Autostart
 exec_always --no-startup-id dfs && git pull
-exec_always --no-startup-id autotiling
+exec_always --no-startup-id python ~/.scripts/alternate/alternate.py
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id mount ~/nextcloud
 exec_always --no-startup-id copyq
@@ -21,6 +21,7 @@ exec_always --no-startup-id feh --bg-fill ~/.config/i3/wallpaper.jpg
 exec --no-startup-id conky -c ~/.conky/Gotham/Gotham
 exec --no-startup-id keepassxc
 exec --no-startup-id picom
+exec_always --no-startup-id xrdb ~/.Xresources
 #exec --no-startup-id autorandr
 #exec_always --no-startup-id autorandr -l $(autorandr | grep detected | cut -d " " -f 1)
 

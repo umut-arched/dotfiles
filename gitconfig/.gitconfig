@@ -2,6 +2,6 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Umut Arslan
-	email = umut_arslan@gmx.de
+	email = umut.arslan@klosebrothers.de
 [core]
-	editor = vim
+	editor = nvim
