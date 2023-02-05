@@ -6,6 +6,7 @@ arandr
 autorandr
 base
 base-devel
+bc
 blender
 blueman
 bluez-utils
