@@ -13,6 +13,7 @@ bluez-utils
 bottles
 brightnessctl
 btrfs-progs
+cmake
 cmatrix
 code
 conky
