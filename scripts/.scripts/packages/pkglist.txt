@@ -20,6 +20,8 @@ conky
 conky-manager
 copyq
 ctags
+cups
+cups-pdf
 davfs2
 discord
 dmenu
@@ -93,7 +95,6 @@ pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
-polybar
 python-pip
 qemu-desktop
 qjackctl
