@@ -1,6 +1,6 @@
 alias ls='ls --color=auto'
 
-alias backup="dfs; dump; ga; gcd; gpu"
+alias backup="dfs; dump; ga; gcd; gp"
 alias dump="dpkg --get-selections | awk '{print $1}' > packages.txt"
 alias ga="git add ."
 alias gb="git branch -a"
