@@ -1,7 +1,0 @@
-require("user.plugins-setup")
-require("user.plugins.lualine")
-require("user.plugins.nvim-tree")
-require("user.plugins.comment")
-require("user.core.options")
-require("user.core.keymaps")
-require("user.core.colorscheme")
