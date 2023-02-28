@@ -11,6 +11,8 @@ alias gcd="git commit -m '$(date)'"
 alias gco="git checkout"
 alias dfs="cd ~/.dotfiles"
 
+alias sd="shutdown.exe /s /t 0"
+
 alias spring_run="mvn spring-boot:run"
 alias mvn_generate="mvn archetype:generate -DarchetypeArtifactId=maven-archetype-quickstart"
 alias mvn_dependency="mvn dependency:resolve"
