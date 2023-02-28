@@ -882,6 +882,7 @@ ucf						install
 udev						install
 ufw						install
 unattended-upgrades				install
+unrar						install
 update-manager-core				install
 update-motd					install
 usb.ids						install

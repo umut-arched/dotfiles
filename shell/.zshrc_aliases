@@ -10,6 +10,9 @@ alias gc="git commit -m"
 alias gcd="git commit -m '$(date)'"
 alias gco="git checkout"
 alias dfs="cd ~/.dotfiles"
+alias winget="winget.exe"
+alias "winget install -h"="winget install -h --accept-package-agreements"
+alias "winget install"="winget install -i"
 
 alias sd="shutdown.exe /s /t 0"
 
